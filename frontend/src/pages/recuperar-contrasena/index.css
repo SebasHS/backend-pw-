@@ -1,0 +1,57 @@
+.fondocabecera{
+    background-color: #b6d1d4;
+}
+.container{
+    display: block;
+}
+
+body{
+    background-color:rgb(246, 246, 246)
+}
+.aislarcontenido{
+    background-color: #b6d1d4;
+    
+}
+.borde{
+    border: #00838F 2px solid;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-success {
+    background-color: #599da3 !important;
+}
+.mt-10{
+    margin-top:200px ;
+}
+
+.perfil_login{
+    color: #00838F;
+    font-size:70px;
+    font-weight:bolder;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.color_letra{
+    color: #00838F;
+
+}
+a{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+a:visited{
+    color: #00838F;
+}
+
+.btna{
+    color: white !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+@media (max-width:700px){
+    .mt-10{
+        margin-top: 15px ;
+    }
+}

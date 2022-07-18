@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: fit-content;
+    width: 100%;
+    padding: 5px 0 5px 20px;
+    border: 1px solid #ced4da;
+    background-color: #b6d1d4;  
+    
+}
+
+header h2{
+    font-weight: 300;
+}
+
+main{
+    padding: 0 20px;
+}
+
+.btn_retroceder{
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.card_info{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ced4da;
+}
+
+.card_info_img{
+    width: 100px;
+    height: 130px;
+}
+
+.card_info_img img{
+    width: inherit;
+    margin-top: 10px;
+}
+
+.card_info_img_2 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card_info span:nth-child(2){
+    padding: 20px 0 0 20px;
+}
+
+.card_info span:nth-child(3){
+    margin-left: auto;
+    padding: 10px 10px 0 0;
+}
+
+
+.card_info span div{
+    padding-bottom: 5px;
+}
+
+.card_info span div:nth-child(n+2){
+    padding-left: 20px;
+}
+
+.card_info_msg img{
+    width: 50px;
+    height: 50px;
+}
+
+.card_prices{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_prices div:nth-child(1){
+    padding-bottom: 20px;
+}
+
+.card_prices div span{
+    padding-right: 20px;
+}
+
+.card_calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card_calendar div:nth-child(1){    
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+.card_calendar div:nth-child(2){
+    width: 90%;
+}
+
+.user_info{
+    display: flex;
+    flex-direction: row;
+}
+
+.user_photo{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user_comment{
+    border: 1px solid #ced4da;
+    padding: 15px 25px;
+}
+
+.doctor_comments{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.doctor_comments div{
+    margin-bottom: 15px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+}
+
+.register button{
+    padding: 10px 50px;
+    margin-bottom: 30px;
+}
+
+.data_user{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.data_user_date{
+    margin-left: 500px;
+    margin-right: 50px;
+    width: 100px;
+    height: fit-content;
+    background-color: beige;
+}
+
+.btn_hist{
+    margin: 20px 0 0 20px;
+}
+
+.gra_hist{
+    width: fit-content;
+    margin: 35px 50px;
+}
+
+.gra_hist img{
+    width: 100%;
+}
+
+.cal_citas{
+    width: 100%;
+}
+
+.cal_citas_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cal_citas_main div:nth-child(1){
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table>:not(caption)>*>*{
+    padding: 2.5rem 1.5rem;
+}
+
+.dif_month{
+    color: red;
+}
+
+.btn_cal{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.btn_cal_citas{
+    width: 90%;
+    padding: 0 20px;
+    margin: 40px 0 15px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_active{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_pac_med{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.ig{
+    margin: 30px 0;
+    width: 20%;
+}
+
+.extra_info_pac_med{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.extra_info_pac_med span{
+    width: 200px;
+    margin-right: 50px;
+}
+
+.extra_info_pac_med div{
+    width: 85%;
+}
+
+.btn_info_pac{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_info_pac button{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.searchshow_card{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.color-buttons-other{
+    color: #00838F;
+}
+
+.color-buttons{
+    border-color: #00838F;
+    background-color: #00838F;
+    color: #fff;
+}
+
+.color-buttons:hover{
+    border-color: #00838F;
+    background-color: #00838F;
+}
+
+.color-buttons:focus{
+    border-color: #00838F;
+    background-color: #00838F;
+}
+
+.header_subtitles{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header_subtitles a{
+    text-decoration: none;
+    color: #00838F;
+}
+
+.header_titles{
+    color: #00838F;
+    font-size:40px;
+    font-weight:bolder;
+    text-align: left;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page-item.active .page-link{
+    background-color: #00838F;
+    border-color: #00838F;
+}
+
+.center_data_fam{
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color:rgb(246, 246, 246)
+}
+
+@media (max-width: 700px){
+    body{
+        width: min-content;
+        background-color: rgb(246, 246, 246);
+    }
+    
+    .card_calendar{
+        margin-bottom: 40px;
+        display: block;
+    }
+
+    .card_calendar div:nth-child(1){    
+        font-size: 30px;
+        display: contents;
+    }
+
+    .data_user_date{
+        margin-left: 180px;
+    }
+}

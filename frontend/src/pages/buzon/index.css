@@ -1,0 +1,171 @@
+#fondo{
+    background-color:rgb(246, 246, 246);
+    color: #00838F;
+}
+.fondo_card{
+    background-color:rgb(246, 246, 246);
+    color: #00838F;
+}
+a{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.label_color{
+    color: #00838F;
+}
+
+.borde{
+
+    border: #00838F 2px solid;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+a:visited{
+    color: #00838F;
+}
+
+#nav-color{
+        background-color: #b6d1d4;    
+                text-align: left;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+#letra{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.letra2{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#letra3{
+    color: #00838F;
+    font-size:40px;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#col11{
+    background-color: transparent;
+    border: 3px solid #00838F;
+}
+
+.row-rev{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#button_id{
+    margin-left: 15px; margin-top: 20px; margin-bottom: 20px;
+}
+
+#caja{
+    width: 100%; margin-left: 50px; margin: auto;
+     padding-left:40px;  background-color: rgba(135, 207, 235, 0.658);
+}
+
+#space1{
+    margin-top: 10px;
+}
+
+#fila_space1{
+
+margin-right: 20px;
+}
+
+#fila_sfila{
+
+    margin-top: 10px;
+}
+
+#tabla{
+    margin-top: 20px;
+    margin-bottom: 20px; padding-left: auto ;
+
+}
+
+.img_msg{
+
+    width: 50px;
+
+}
+#dropdownMenuLink{
+    color: white;
+
+}
+
+#desplace{
+
+    margin-top: 20px ;
+}
+
+#espacio_final{
+
+    margin-bottom: 20px;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header h2{
+    font-weight: 300;
+}
+
+main{
+    padding: 0 20px;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.color-buttons-other{
+    color: #00838F;
+}
+
+.color-buttons{
+    border-color: #00838F;
+    background-color: #00838F;
+    color: #fff;
+}
+
+.color-buttons:hover{
+    border-color: #00838F;
+    background-color: #00838F;
+}
+
+.color-buttons:focus{
+    border-color: #00838F;
+    background-color: #00838F;
+}
+.diagnostico_head{
+    width: 30%;
+
+}
+.diagnostico_body{
+    width: 30%;
+    text-align: justify;
+}

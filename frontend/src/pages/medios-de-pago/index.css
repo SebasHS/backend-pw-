@@ -1,0 +1,80 @@
+.container2 {
+    height: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fondo{
+    background-color:rgb(246, 246, 246)
+}
+
+h1{color: #00838F;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.Labels{color: #00838F;}
+
+.cuadroLleno{
+    background-color: transparent;  
+}
+
+
+#checkbox1{
+    font-size: 10px;
+    color:#599da3;
+    font-weight:bolder;
+}
+#checkbox2{
+    font-size: 10px;
+}
+
+
+a{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+a:visited{
+    color: #00838F;
+}
+
+
+#BotonTarjetaCredito{
+    color: #00838F;
+    border-color: #00838F;
+    width: 300px;
+}   
+
+#Boton{
+    text-align:center;
+}    
+
+#BotonPagar{
+    color: white !important;
+    background-color: #00838F;
+    width: 100px;
+    margin-bottom: 100px;
+}
+    
+
+.item{
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 24px;
+}
+
+#pagar:visited {
+    color: white;
+}
+#pagar {
+    color: white;
+}
+
+
+
+
+

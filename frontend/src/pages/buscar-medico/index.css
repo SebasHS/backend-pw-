@@ -1,0 +1,135 @@
+#nombrePaciente {
+    position: relative;
+    margin-top: 38px;
+    font-size: large;
+    text-align: right;
+    margin-right: 8px;
+    color:#00838F;
+  }
+  
+  a {
+    color: #00838F;
+  }
+  
+  #rectanguloEncabezado {
+    height: 30%;
+    background-color: #b6d1d4;
+    color: #00838F;
+    
+    
+  }
+  
+  #rectanguloEspecialidad {
+    margin-left: 10%;
+    margin-right: 5%;
+    background-color: transparent;
+    border: 2px solid #00838F;
+    height: fit-content;
+    padding-bottom: 10%;
+    color: #00838F;
+    width: 85%;
+    padding-right: 10%;
+  }
+  
+  #rectanguloDoctores {
+    margin-right: 5%;
+    margin-left: 5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 25px;
+    background-color: transparent;
+    color: #00838F;
+  }
+  .divBtnCentrado {
+    text-align: center;
+  }
+  
+  
+  .circulo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #00838F;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 35px;
+  }
+  
+  
+  .rectangulosCuerpo {
+    height: 700px;
+    margin-bottom: 5%;
+    margin-top: 50px;
+    background-color: #b6d1d4;
+  }
+  
+  .rectangulosDoctor {
+    width: auto;
+    height:auto;
+    border: 3px solid #00838F ;
+    margin-bottom: 10px;
+    margin-top: 5%;
+    padding-bottom: 14px;
+  }
+  
+  .imgMedico {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 25px;
+  }
+  
+  .divImgMedico {
+    margin-top: 10px;
+    margin-right: 5%;
+  }
+  
+  
+  .body {
+    background-color:rgb(246, 246, 246);
+    display: inherit;
+  }
+  
+  .fa {
+    margin-left:15%;
+    color: #00838F;
+  }
+  
+  .btn {
+    color: white;
+    background-color: #00838F;
+    border: none;
+    
+  }
+  
+  
+  .link {
+    color: #00838F;
+  }
+  
+  .imgEstrella {
+    max-width: 80px;
+    max-height: 60px;
+    background-color: transparent !important;
+    margin-left: 20px;
+  }
+  
+  .imgPaciente {
+    width: 100px !important; 
+    height: 50px !important;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 35px;
+  }
+  html {
+    background-color: rgb(246, 246, 246);
+  }
+  #encabezado {
+    background-color: #b6d1d4;
+    color: #00838F;
+    margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}

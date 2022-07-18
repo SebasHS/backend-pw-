@@ -1,0 +1,142 @@
+.button_mpriv_row_rev{
+    display: flex;
+    flex-direction: row-reverse !important;
+    justify-content: unset;
+}
+
+#fondo{
+    background-color:rgb(246, 246, 246);
+    color: #00838F;
+}
+a{
+    color: #00838F;
+    font-size: 20px;
+}
+a:visited{
+            color: #00838F;
+        }
+#letra{
+    color: #00838F;
+    
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#letra3{
+    color: #00838F;
+    font-size:40px;
+    font-weight:bolder;
+    text-align: left;
+}
+
+#nav-color{
+    background-color: #b6d1d4;    
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#button_id{
+    margin-left: 15px; margin-top: 20px; margin-bottom: 20px;
+
+}
+
+.row-rev{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#caja{
+    width: 100%; margin: auto;
+    padding-bottom: 20px; padding-left:40px; padding-right: 50px;
+
+}
+#columnas_superiores{
+    padding-top: 40px; 
+}
+
+#col11{
+
+    margin-top: 10px;
+    background-color: transparent;
+    border: 3px solid #00838F;
+}
+
+#asunto_text{
+    margin-top: 25px; margin-bottom: 35px; 
+    background-color: transparent;
+}
+
+#asunto_box{
+    margin-top: 20px; 
+    background-color: transparent;
+    border: 3px solid #00838F;
+}
+
+#texto_escrbir{
+
+    width: 100%; margin-top: 35px; padding-left: 60px; padding-bottom: 20px;
+}
+
+#tam_h1{
+
+    font-size: large;
+}
+
+#pre_Sent{
+    margin: auto;
+}
+
+
+#espacio_final{
+
+    margin-bottom: 20px; 
+
+}
+
+.nave {
+    text-decoration: none;
+}
+
+#text_para{
+    margin-top: 10px; 
+}
+
+.color-buttons-other{
+    color: #00838F;
+}
+
+.color-buttons{
+    border-color: #00838F;
+    background-color: #00838F;
+    color: #fff;
+}
+
+.color-buttons:hover{
+    border-color: #00838F;
+    background-color: #00838F;
+}
+
+.color-buttons:focus{
+    border-color: #00838F;
+    background-color: #00838F;
+}
+
+.borde{
+
+    border: #00838F 2px solid;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+@media (max-width:700px) {
+    body{
+            width: fit-content;
+    }
+
+    #columnas_superiores div:nth-child(3){
+        display: block !important;
+    }
+
+    #columnas_superiores div{
+        margin-bottom: 10px;
+    }
+}

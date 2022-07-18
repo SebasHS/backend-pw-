@@ -1,0 +1,53 @@
+
+.encabezadoPerfil{
+    background-color: #b6d1d4;
+    margin-top: -10px;
+    height: auto;
+    color: #00838F;
+}
+
+
+.fondo2{
+    background-color:rgb(246, 246, 246)
+}
+
+#LetraHeader{
+    color: #00838F;
+    font-size:40px;
+    font-weight:bolder;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#LetraGuardar{
+    color: white;
+}
+
+a{
+    color: #00838F;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+a:visited{
+    color: #00838F;
+}
+
+.Labels{color: #00838F;}
+
+.cuadroLleno{background-color: transparent !important;}
+
+.Boton{
+    text-align:center;
+}  
+
+#BotonGuardar{
+    color:aliceblue;
+    background-color: #00838F;
+    width: 100px;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: inherit;
+}

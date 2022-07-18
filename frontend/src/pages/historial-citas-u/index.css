@@ -1,0 +1,96 @@
+.encabezado {
+    background-color: #b6d1d4;
+    color: #00838F;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#enviarMensaje {
+    margin-left: 10%;
+}
+.rectangulo {
+    background-color: #b6d1d4;
+    width: 80%;
+    margin-bottom: 8%;
+    background-color: transparent;
+    border: 2px solid #00838F;
+}
+.tdEstrella {
+    text-align: center;
+}
+
+.encabezadosTabla {
+    text-align: center;
+}
+
+.imgMensaje {
+    width: 75px;
+    height: 62px;
+    margin-top: 1%;
+    text-align: center;
+    background-color: transparent;
+}
+.body {
+    background-color:rgb(246, 246, 246);
+    color: #00838F;
+}
+
+.cuadroLleno {
+    background-color: transparent;
+}
+
+.link {
+    color: #00838F;
+}
+
+#comentario {
+    border: 2px solid #00838F;
+    background-color: transparent;
+}
+
+#divImgMedico {
+    margin-top: 2%;
+}
+
+.imgEstrella {
+    max-width: 80px;
+    max-height: 60px;
+    background-color: transparent !important;
+}
+
+.imgMedico {
+    width: 90px;
+    height: 90px;
+    border:3px solid #00838F;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.modal {
+    color: #00838F;
+    text-align: left;
+}
+
+.divEstrellas {
+    margin-left: 3cm;
+}
+
+.fa {
+    margin: -25px;
+}
+
+.btnModal {
+    background-color: #00838F;
+    border: none;
+}
+html {
+    background-color:rgb(246, 246, 246);
+}
+#encabezado {
+    background-color: #b6d1d4;
+    color: #00838F;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
