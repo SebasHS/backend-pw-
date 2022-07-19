@@ -1,7 +1,7 @@
 import NavigationTo from "../../../componets/NavigationTo"
 
 
-const bandeja = new Array(2).fill(0).map((_, index) => ({
+const bandeja = new Array(4).fill(0).map((_, index) => ({
     id: `${index + 1}`,
     medico:"Dra. COPELLO, MARIA PIA",
     especialidad: "Experta en pandemia",

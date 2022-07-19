@@ -19,7 +19,7 @@ const Pagina_IPM = () => {
             </header>
             <main>
             <section>
-                <div className="info_pac_med">
+                {/* <div className="info_pac_med">
                 <div className="input-group input-group-sm mb-3 ig">
                     <span className="input-group-text color-buttons" id="inputGroup-sizing-sm">Nombre</span>
                     <input className="form-control" type="text" placeholder="Taco, Jimenez" aria-label="Disabled input example" disabled/>
@@ -32,7 +32,7 @@ const Pagina_IPM = () => {
                     <span className="input-group-text color-buttons" id="inputGroup-sizing-sm">Correo</span>
                     <input className="form-control" type="text" placeholder="angelotacoj@gmail.com" aria-label="Disabled input example" disabled/>
                 </div>
-            </div>
+            </div> */}
             <div className="mt-5">
                 <div  className="extra_info_pac_med">
                     <span>Notas extra de la atención: </span>
