@@ -4,9 +4,12 @@ import paciente from '../../assets/1430453.png'
 import Articulo_INP from "./Articulo_INP"
 import OpcionesEspecialidad_INP from './OpcionesEspecialidad_INP'
 import NavigationTo from '../../componets/NavigationTo'
+import useAthentication from '../../hooks/useAutentication'
 
 
 const InicioPaciente = () => {
+
+    const {deslogear} = useAthentication()
 
     const [especialidadSeleccionada, setEspecialidadSeleccionada] = React.useState("0")
 
@@ -135,7 +138,7 @@ const InicioPaciente = () => {
                                 | NOMBRE PACIENTE
                             </label>
                             <img src={paciente} class="img-circle"  alt="..." width="50px;"/>    
-                        
+                            <button className='text-center btn' onClick = {()=> deslogear()}> cerrar sesion</button>
                         </div>
                     </div>
                 </nav>

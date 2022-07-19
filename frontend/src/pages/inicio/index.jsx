@@ -42,7 +42,7 @@ const Inicio = () => {
                               href="/historial-de-citas"
                               image={require('../../assets/historial_citas.jpg')}
                             />
-                            <button onClick = {()=> deslogear()}> cerrar sesion</button>
+                            
                           </div>
                         </div>
                       </div>
@@ -71,6 +71,7 @@ const Inicio = () => {
                 </div>
               </div>
             </div>
+            <button className='text-center btn' onClick = {()=> deslogear()}> cerrar sesion</button>
           </div>
         </div>
       </div>

@@ -1,9 +1,22 @@
 import React from 'react'
 import NavigationTo from '../../componets/NavigationTo'
 import './index.css'
+import emailjs from "emailjs-com"
 
 
 const Pagina_RC = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+    emailjs.sendForm('service_xu2kl34', 'template_hm83src', e.target, 'SlkUzT-CfqIXLvQFh')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    };
+
     const [correo, setCorreo] = React.useState("")
 
     const onCorreoChange = (evt) => {
@@ -51,7 +64,7 @@ const Pagina_RC = () => {
                         </div>
                         <div className="row justify-content-end pt-3 pb-2 ">
                             <div className="d-grid gap-2 col-md-2 mb-2">
-                                <NavigationTo href="/login"> <div className="btn btna btn-success me-md-2 fs-5" onClick={corroborarCorreo} role="button">Recuperar</div></NavigationTo>
+                                <NavigationTo href="/login"> <div className="btn btna btn-success me-md-2 fs-5" onClick={sendEmail} role="button">Recuperar</div></NavigationTo>
                             </div>
                             <div className="d-grid gap-2 col-md-2 mb-2 ms-3">
                                 <NavigationTo href="/login"> <div className="btn btna btn-danger me-md-2 fs-5" role="button">Cancelar</div></NavigationTo>
