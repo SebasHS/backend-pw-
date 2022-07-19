@@ -1,5 +1,32 @@
 import NavigationTo from "../../../componets/NavigationTo"
 
+
+const bandeja = new Array(2).fill(0).map((_, index) => ({
+    id: `${index + 1}`,
+    medico:"Dra. COPELLO, MARIA PIA",
+    especialidad: "Experta en pandemia",
+    fechaAtencion:"19/07/2022",
+    diagnostico:"Viruela del mono y Positivo para covid-19",
+    medicinaRecetada:"Mucho panadol"
+}))
+
+const ItemPregunta = ({medico, fechaAtencion, diagnostico,medicinaRecetada,especialidad }) =>{
+    return(
+        <tr>
+            <td>{medico} <p>{especialidad}</p></td>
+            <td>{fechaAtencion}</td>
+            <td className="diagnostico_body">
+                {diagnostico}
+            </td>
+            <td className="diagnostico_body">
+                {medicinaRecetada}
+            </td>
+        </tr>                 
+    )
+}
+
+
+
 const HistMed_IPM = () =>{
     return(
         <section>
@@ -37,56 +64,9 @@ const HistMed_IPM = () =>{
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>APELLIDOS, NOMBRES <p>Especialidad</p></td>
-                            <td>DD MM YY | Hora</td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>APELLIDOS, NOMBRES <p>Especialidad</p></td>
-                            <td>DD MM YY | Hora</td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>APELLIDOS, NOMBRES <p>Especialidad</p></td>
-                            <td>DD MM YY | Hora</td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>APELLIDOS, NOMBRES <p>Especialidad</p></td>
-                            <td>DD MM YY | Hora</td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>APELLIDOS, NOMBRES <p>Especialidad</p></td>
-                            <td>DD MM YY | Hora</td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                            <td className="diagnostico_body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ex ut lacus imperdiet, in congue ipsum semper. Aenean
-                            </td>
-                        </tr>
+                        {bandeja.map((pregunta) => {
+                        return <ItemPregunta key={pregunta.id} {...pregunta} />
+                        })}
                         </tbody>
                         </table>
                         

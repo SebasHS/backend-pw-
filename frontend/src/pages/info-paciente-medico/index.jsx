@@ -3,6 +3,7 @@ import React from 'react'
 import './index.css'
 import NavigationTo from "../../componets/NavigationTo"
 
+
 const Pagina_IPM = () => {
     return (
         <div>
