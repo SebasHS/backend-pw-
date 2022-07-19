@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './index.css'
 import NavigationTo from '../../componets/NavigationTo'
-//no hay nada de react
+
 const Pagina_MPUB = () => {
+    const [Preguntas,SetPregunta]=useState({
+        dniPaciente : '',
+        asunto: '',
+        mensaje: ''
+    })
+    const {dniPaciente,asunto,mensaje} = Preguntas;
+
+    const onInputChange = e => {SetPregunta({
+        ...Preguntas,[e.target.name]:e.target.value
+    })}
+
     return (
         <main>
             <div>
@@ -33,14 +44,14 @@ const Pagina_MPUB = () => {
 
                         <div id="columnas_superiores" className="row" >
                             <div className="col">
-                                De:  <input id="col11" type="text" placeholder="" />
+                                De:  <input id="col11" type="text" placeholder="" value={dniPaciente} onInputChange={e=>onInputChange(e)}/>
                             </div>
                             <div className="col d-flex flex-row-reverse antifrr" id="last_col" >
                                 <input id="col11" type="date" placeholder="" />
                             </div>
                         </div>
 
-                        <div id="asunto_text" >Asunto: <input id="col11" type="text" placeholder="" />
+                        <div id="asunto_text" >Asunto: <input id="asunto_box" type="text" placeholder="" value={asunto} onInputChange={e=>onInputChange(e)}/>
                         </div>
 
                         <div>
@@ -48,7 +59,7 @@ const Pagina_MPUB = () => {
                         </div>
 
                         <div  >
-                            <textarea id="texto_escrbir" rows="10" cols="30">
+                            <textarea id="texto_escrbir" rows="10" cols="30" value={mensaje} onInputChange={e=>onInputChange(e)}>
                             </textarea>
                         </div>
 
