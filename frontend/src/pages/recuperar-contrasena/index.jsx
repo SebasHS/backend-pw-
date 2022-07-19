@@ -7,9 +7,14 @@ import emailjs from "emailjs-com"
 const Pagina_RC = () => {
 
     const sendEmail = (e) => {
+        var templateParams = {
+            name: 'James',
+            notes: 'Check this out!'
+        };
+
         e.preventDefault();
 
-    emailjs.sendForm('service_xu2kl34', 'template_hm83src', e.target, 'SlkUzT-CfqIXLvQFh')
+    emailjs.send('service_xu2kl34', 'template_hm83src', templateParams, 'SlkUzT-CfqIXLvQFh')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
