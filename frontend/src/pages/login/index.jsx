@@ -62,7 +62,7 @@ const Login = (props) => {
               </div>
               <div className="row align-items-center justify-content-center pt-2">
                 <div className="col-sm-6">
-                  <NavigationTo className="fs-5" href="/recuperar">
+                  <NavigationTo className="fs-5" href="/recuperar-contrasena">
                     ¿Olvido su contraseña?
                   </NavigationTo>
                 </div>

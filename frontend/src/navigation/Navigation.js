@@ -23,6 +23,10 @@ const routesAuth = [
   {
     path: '*',
     element: () => <Navigate to={'/login'} />
+  },
+  {
+    path: 'recuperar-contrasena',
+    element: lazy(() => import('../pages/recuperar-contrasena'))
   }
 ]
 
